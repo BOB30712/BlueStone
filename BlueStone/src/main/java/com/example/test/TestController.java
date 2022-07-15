@@ -56,5 +56,16 @@ public class TestController {
 		return "single_services_5";
 	}
 	
+	//二元期权交易系统
+	@RequestMapping("/single_services_6")
+	public String index10(Model model) {
+		return "single_services_6";
+	}
+	
+	//移动端交易系统
+	@RequestMapping("/single_services_7")
+	public String index11(Model model) {
+		return "single_services_7";
+	}
 
 }
