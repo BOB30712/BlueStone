@@ -46,6 +46,11 @@ h6 {
   color: #ffffff;
 }
 
+.darkbutton {
+background: #ffb600;
+color: #ffffff;
+}
+
 .img {
 	   display:flex;
   align-items:center;
@@ -4825,7 +4830,7 @@ ul.wd-list-link li.active a {
   font-size: 21px;
   color: #fff;
   margin-bottom: 0;
-  padding-left: 127px;
+  padding-left: 180px;
   padding-right: 15px;
   position: absolute;
   top: -30px;
@@ -4835,7 +4840,7 @@ ul.wd-list-link li.active a {
   position: absolute;
   font-size: 32px;
   font-weight: bold;
-  padding: 0 20px;
+  padding: 0 10px;
   background: #ffb600;
   top: 0;
   left: 0;

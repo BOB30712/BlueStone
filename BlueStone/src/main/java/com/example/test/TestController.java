@@ -73,5 +73,17 @@ public class TestController {
 	public String index12(Model model) {
 		return "single_services_8";
 	}
+	
+	//加密货币钱包和支付系统
+	@RequestMapping("/single_services_9")
+	public String index13(Model model) {
+		return "single_services_9";
+	}
+	
+	//服务体系
+	@RequestMapping("/company_history")
+	public String index14(Model model) {
+		return "company_history";
+	}
 
 }
