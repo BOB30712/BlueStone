@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 	
+	@GetMapping("/test")
+	public String test() {
+		return "test success";
+	}
+	
 	@RequestMapping("/")
 	public String index(Model model) {
 		return "test";
@@ -85,5 +90,78 @@ public class TestController {
 	public String index14(Model model) {
 		return "company_history";
 	}
+	
+	//服务体系
+	@RequestMapping("/company_history1")
+	public String index15(Model model) {
+		return "company_history1";
+	}
+	
+	//个性化直播软件建设
+	@RequestMapping("/company_history2")
+	public String index16(Model model) {
+		return "company_history2";
+	}
+	
+	//SEM搜索引擎管理
+	@RequestMapping("/company_history3")
+	public String index17(Model model) {
+		return "company_history3";
+	}
+	
+	//跟单系统
+	@RequestMapping("/company_history4")
+	public String index18(Model model) {
+		return "company_history4";
+	}
+	
+	//量化策略优化
+	@RequestMapping("/company_history5")
+	public String index19(Model model) {
+		return "company_history5";
+	}
+	
+	//FIX清算对冲桥
+	@RequestMapping("/company_history6")
+	public String index20(Model model) {
+		return "company_history6";
+	}
+
+	//风控插件定制
+	@RequestMapping("/company_history7")
+	public String index21(Model model) {
+		return "company_history7";
+	}
+	
+	//服务器运维
+	@RequestMapping("/company_history8")
+	public String index22(Model model) {
+		return "company_history8";
+	}
+	
+	//风险管理系统
+	@RequestMapping("/company_history9")
+	public String index23(Model model) {
+		return "company_history9";
+	}
+	
+	//NFT 程序
+	@RequestMapping("/company_history10")
+	public String index24(Model model) {
+		return "company_history10";
+	}
+	
+	//GameFi程序
+	@RequestMapping("/company_history11")
+	public String index25(Model model) {
+		return "company_history11";
+	}
+	
+	//区块链解决方案
+	@RequestMapping("/company_history12")
+	public String index26(Model model) {
+		return "company_history12";
+	}
+
 
 }
