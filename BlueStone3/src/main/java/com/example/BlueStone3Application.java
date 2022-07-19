@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlueStoneApplication {
+public class BlueStone3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlueStoneApplication.class, args);
+		SpringApplication.run(BlueStone3Application.class, args);
 	}
 
 }
